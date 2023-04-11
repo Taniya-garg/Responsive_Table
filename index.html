@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<style>
+    * {
+        margin: 0% 0%;
+        padding: 0%;
+        overflow: auto;
+
+    }
+
+    body {
+        background-image: url(bg.jpg);
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 68px;
+        margin: 2% auto;
+        width: 100%;
+        color: white;
+        display: inline-block;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    table {
+        margin: 1% 17%;
+        padding: 20px;
+        display: inline-block;
+        font-size: 141%;
+        border-radius: 20px;
+        background-image: linear-gradient(to right, rgb(7, 18, 231), rgb(251, 6, 161));
+        cursor: pointer;
+    }
+    th,td:hover{
+        color: black;
+        text-shadow: 2px 2px 8px yellow;
+
+    }
+
+    th,
+    td {
+        color: white;
+        text-align: center;
+        padding: 10px 15px;
+    }
+
+    @media(max-width : 500px) {
+        table {
+            margin: 5% 3%;
+            padding: 0px;
+            font-size: 90%;
+        }
+
+        h1 {
+            font-size: 31px;
+        }
+
+        th,
+        td {
+            padding: 3px 0px;
+        }
+
+        body {
+            background-repeat: repeat;
+        }
+    }
+</style>
+
+<body>
+    <h1>Table of daily routine</h1>
+    <div class="bg">
+        <table class="table">
+            <tr>
+                <th>Days &#8594 <br> Work &#8595 </th>
+                <th>Sunday</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+            </tr>
+
+            <tr>
+                <td>Sleeping</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>YES</td>
+            </tr>
+
+            <tr>
+                <td>Walking</td>
+                <td>NO</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>NO</td>
+                <td>YES</td>
+                <td>NO</td>
+            </tr>
+
+            <tr>
+                <td>Bathing</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>YES</td>
+            </tr>
+
+            <tr>
+                <td>Playing</td>
+                <td>NO</td>
+                <td>NO</td>
+                <td>NO</td>
+                <td>NO</td>
+                <td>NO</td>
+                <td>YES</td>
+            </tr>
+
+            <tr>
+                <td>Styding</td>
+                <td>NO</td>
+                <td>NO</td>
+                <td>NO</td>
+                <td>NO</td>
+                <td>NO</td>
+                <td>YES</td>
+            </tr>
+
+            <tr>
+                <td>Naping</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>NO</td>
+                <td>YES</td>
+            </tr>
+
+            <tr>
+                <td>Dancing</td>
+                <td>NO</td>
+                <td>NO</td>
+                <td>NO</td>
+                <td>NO</td>
+                <td>NO</td>
+                <td>NO</td>
+            </tr>
+        </table>
+</body>
+
+</html>
